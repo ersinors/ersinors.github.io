@@ -21,7 +21,16 @@
             <li>Platforms: <strong> OSX, Windows, Linux </strong></li>
             <p>Atom, "21. yüzyılın hacklenebilir metin editörü" olarak tanımlanıyor. 2014 yılında yaratılan Atom'un günümüze kadar hızlı bir ivme kazanarak geldi. Başlıca özelliklerine bakarak devam edelim.</p>
             <h3>Paketler</h3>
-            <p>Ek özellikler üstünde düzenleme </p>
+            <p>Bir düzenlemeye ek özellikler ekleme yeteneği oldukça önemli bir konu. Atom da bu konuda oldukça başarılı. Paket yöneticisi varsayılan olarak yüklenir ve tüm paketlere github üstünden erişebilirsiniz. Bu yazıyı yazdığım anda bile hali hazırla 8.234 paket bulunuyor.</p>
+            <h3>Düzenleme ve İş Akışı</h3>
+            <p>Genel olarak atom kullanışı çok zorlamayacak bir editör. Başlangıç olarak yaşayacağınız en büyük problem ise hangi ek paketlerin kurulması gerektiğini bulmak olacaktır.</p>
+            <p>Github tarafından tasarlandığı için de tabii ki git entegrasyonu harika.</p>
+            <h3>Özelleştirme</h3>
+            <p>Bir editörü kendi tarzınıza göre özelleştirebilmek şüphesiz ki önemli bir husus. Atom'un döküman sayfası stilleri nasıl geçersiz kılacağınız konusunda başarılıdır. Ayarları geçersiz kılabilmesi güzel bir özellik.</p>
+            <h3>Performans</h3>
+            <p>Bence Atom'un en zayıf kaldığı yön bu. İlk çıktığı zamanlar daha can sıkıcı olmakla birlikte bir dosya açmak veya sekmeler arasında gezmek gibi işlemler hala aşırı derecede sinir bozucu ve can sıkıcı olabiliyor.</p>
+            <p>Sonuç olarak Atom kişiselleştirme yapmak için ideal editörlerin başında gleiyor diyebilirim. Editörünü kendi isteğine göre düzenleyebilmek editörün kullanışlılığını muhakkak arttıracaktır. Dökümantasyon olarak da iyi bir dökümantasyon sağlıyor. En büyük problemi ise dediğim gibi Atom'un hala can sıkıcı derecede yavaş olması.</p>
+
             
         </section>
       </div>

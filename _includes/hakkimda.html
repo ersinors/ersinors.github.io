@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    {% include header.html%}
+    
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <p>1995 Yalova doğumlu bir bilgisayar mühendisi adayıyım.</p>
+        <ul><h2 style="margin-top: 20px;">Eğitim</h2>
+            <li>Şehit Osman Altınkuyu Anadolu Lisesi(2009 - 2013)</li>
+            <li>Karabük Üniversitesi(2014 - ~)</li>
+        </ul>
+        <ul><h2 style="margin-top: 20px;">Diller</h2>
+            <li>İngilizce (iyi)</li>
+            <li>Almanca (başlangıç)</li>
+        </ul>
+        <ul><h2 style="margin-top: 20px;">Yazılım Bilgisi</h2>
+            <li>C (iyi)</li>
+            <li>ruby(başlangıç)</li>
+            <li>PHP (orta)</li>
+            <li>Python (orta)</li>
+        </ul>
+        <ul><h2 style="margin-top: 20px;">Hobiler</h2>
+            <li>Spor (extreme dahil, her türlüsü)</li>
+            <li>Kitap</li>
+            <li>Sosyal olmak</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    {% include footer.html%}
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
